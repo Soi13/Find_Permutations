@@ -31,8 +31,7 @@ class Program
                     nums[i] = nums[i + 1];
                     nums[i + 1] = tmp_num;
 
-                    final_res.Add(nums.ToList());
-                    //Console.WriteLine("{0},{1},{2},{3},{4}\n", nums[0].ToString(), nums[1].ToString(), nums[2].ToString(), nums[3].ToString(), nums[4].ToString());
+                    final_res.Add(nums.ToList());                    
                 }
             }
 
